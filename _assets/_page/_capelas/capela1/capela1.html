@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>capela1</title>
+
+    <link rel="stylesheet" href="../../../_css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="">
+                <li class="logotipo"><a href=""><img src="../../../_img/_index-img/logotipo.png" alt=""></a>
+                <li class="hideMobile"><a href="#">INÍCIO</a></li>
+                <li class="hideMobile"><a href="#">NOSSA PARÓQUIA</a></li>
+                <li class="hideMobile"><a href="#">CAPELAS</a></li>
+                <li class="hideMobile"><a href="#">SAIBA MAIS</a></li>
+                <li class="hideMobile"><a href="#">COMUNICACÃO</a></li>
+                <li class="hideMobile"><a href="#">CURSOS</a></li>
+                <li class="hideMobile"><a href="#">DIZIMISTA</a></li>
+                <li class="hideDesktop" onclick=showSiderbar()><a href="#"><svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+
+            <ul class="sidebar"><!--Para dispositivos móveis-->
+                <li onclick=hideSiderbar()>
+                    <a href="#">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                    </a>
+                </li>
+                <li><a href="#">INÍCIO</a></li>
+                <li><a href="#">NOSSA PARÓQUIA</a></li>
+                <li><a href="#">CAPELAS</a></li>
+                <li><a href="#">SAIBA MAIS</a></li>
+                <li><a href="#">COMUNICACÃO</a></li>
+                <li><a href="#">CURSOS</a></li>
+                <li><a href="#">DIZIMISTA</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <h1>Frase do mês</h1>
+            <p></p>
+        </div>
+        
+    </header>
+    <main>
+        <h1>teste</h1>
+    </main>
+    <script>
+        function showSiderbar(){
+            const sidebar = document.querySelector(".sidebar");
+            sidebar.style.display = "flex";
+        }
+
+        function hideSiderbar(){
+            const sidebar = document.querySelector(".sidebar");
+            sidebar.style.display = "none";
+        }
+    </script>
+    
+</body>
+</html>

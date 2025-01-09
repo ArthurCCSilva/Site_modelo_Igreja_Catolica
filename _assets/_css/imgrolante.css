@@ -1,0 +1,14 @@
+@charset "UTF-8";
+#imagem_rolante_principal, #imagem_rolante-1{
+    min-height: 100vh;/*ocupa a altura de 100% */
+    background-size: cover;/*ocupa 100% do espaço*/
+    background-repeat: no-repeat;
+    background-position: center;/*para centralizar quando diminuir a tela*/
+}
+#imagem_rolante_principal {
+    background-image: url("../_img/_index-img/igerja-externa.jpg");
+}
+
+#imagem_rolante-1{
+    background-image: url("../_img/_index-img/igreja-interna.jpg");
+}
