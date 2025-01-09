@@ -29,7 +29,7 @@ main a{
     color: var(--cor-azul-5);
 }
 img.txt-dizimo{
-    min-width: 461px;
+    min-width: 383px;
 }
 
 .noticia2-3{
@@ -42,13 +42,13 @@ img.txt-dizimo{
 .notiacia2{
     margin: auto;
     width: 50%;
-    min-width: 461px;
+    min-width: 383px;
     height: auto;
     padding: 10px;
 }
 .noticia1{
     margin: auto;
-    min-width: 461px;
+    min-width: 383px;
     margin-top: 30px;
     width: 35%;
     padding:5px;
