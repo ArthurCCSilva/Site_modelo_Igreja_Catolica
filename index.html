@@ -7,6 +7,225 @@
     <link rel="stylesheet" href="/_assets/_css/imgrolante.css">
 
     <title>IGREJA EXEMPLO</title>
+    <style>
+        @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Niconne&family=Playwrite+IN+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Niconne&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IN+Guides&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main h1{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: italic;
+}
+main h2{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 20px;
+}
+main p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    text-indent: 25px;
+    margin-top: 15px;
+}
+
+:root{
+    --cor-azul-5:#143F59;
+    --cor-azul-4:#1D5B82;
+    --cor-azul-3:#2474A6;
+    --cor-azul-2:#2F94D4;
+    --cor-azul-1:#38B1FC;
+}
+
+div.barra{
+    background-color: #ffffff;
+    border-top: 5px solid #2474a671;
+    border-bottom: 5px solid #2474a671;
+}
+
+/*-----INICIO CABECALHO-----*/
+header{
+    min-height: 100vh;/*ocupa a altura de 100% */
+    background-image: url("../_img/_index-img/paraiso.backgrond.jpg");
+    background-size: cover;/*ocupa 100% do espaço*/
+    background-repeat: no-repeat;
+    background-position: center;/*para centralizar quando diminuir a tela*/
+}
+
+/*INICIO MENU NAVEGAÇÃO*/
+nav{
+    display: flex;/*para ficar ao lado*/
+    justify-content: flex-end;/*para alinhar ao final do lado direito*/
+}
+nav ul{
+    width: 100%;
+    list-style: none;/*para sumir as marcações laterais da lista*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;/*para alinhar verticalmente*/
+}
+nav li{
+    height: 60px;
+    
+}
+nav li:first-child{/*somente o primeiro item fica alinhado*/
+    margin-right: auto;
+}
+nav a{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 13.5px;
+    height: 100%;
+    padding: 0 10px;
+    text-decoration: none;/*tira a tecoração do link*/
+    display: flex;
+    align-items: center;
+    color: #fff;
+    transition: 0.5s;
+}
+nav a:hover{
+    color: #38B1FC;
+    font-weight: 500;
+
+}
+
+
+header h1{
+    font-family: "Montserrat", serif;
+}
+header p{
+    font-family: "Niconne", serif;
+    font-size: 45px;
+    max-width: 450px;
+}
+.icon{
+    fill: #fff;
+}
+
+/*menu dispositivo móveis*/
+.sidebar{
+    position: absolute; /*ficar em um lugar fixo*/
+    top: 0;/*fica colado em cima*/
+    right: 0;/*fica colado do lado direito*/
+    height: 100vh;
+    width: 280px;
+    z-index: 999;/*para ficar sobre os intens*/
+    background-color: hsla(0, 0%, 100%, 0.295);
+    box-shadow: -10px 0px 10px hsla(0, 0%, 0%, 0.212);
+    display: none;
+    flex-direction: column;/*para ficar um a baixo do outro*/
+    align-items: flex-start;/*para alinhar para o lado esquerdo*/
+    justify-content: flex-start;/*para alinha apartir de cima*/
+    backdrop-filter: blur(7px);/*para desfocar o fundo*/
+}
+
+.mobiledrop:hover .drop {
+    display: block; /* Make the submenu visible */
+}
+/*FIM MENU NAVEGAÇÃO*/
+
+/*INICIO MENSSAGEM DO MÊS*/
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    color: #fff;
+    flex-direction: column;
+    text-align: center;
+}
+.content p{
+    max-height: 400px;
+}
+/*FIM MENSSAGEM DO MÊS*/
+
+/*-----FIM CABECALHO-----*/
+
+
+/*-----INICIO HEADER-----*/
+
+main{
+    width: 100%;
+}
+
+div.barra_box_informacao{
+    margin: auto;
+    padding: 20px 0px 20px 0px ;
+    max-width: 1200px;
+    min-width: 500px;
+    background-image: linear-gradient(to left, #ffffff,#dbdada,#ffffff);
+    display: flex;
+    flex-wrap: wrap;/* Adiciona a propriedade para quebrar a linha */
+    justify-content: space-between; /* Cria um espaço entre os itens de forma igualitária*/
+}
+div.box_informacao{
+    margin: 20px auto;
+    width: 350px;
+    min-height: 240px;
+}
+div.img_box_informacao{
+    padding: 0px;
+    width: 330px;
+    height: 170px;
+    border: 7px solid #38b1fc25;
+    border-radius: 10px;
+}
+a.img-link{
+    text-decoration: none;
+}
+p.txt_img_box_informacao{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    padding: 6px 10px;
+    color: var(--cor-azul-5);
+    transition: 0.6s;
+}
+p.txt_img_box_informacao:hover{
+    color: #38B1FC;
+}
+a.p-link{
+    text-decoration: none;
+}
+
+/*-----FIM HEADER-----*/
+
+/*-----INICIO RODAPE-----*/
+/*-----FIM RODAPE-----*/
+
+@media(min-width: 827px){
+    /*INICIO MENU NAVEGAÇÃO*/
+    .hideDesktop{
+        display:none;
+    }
+    /*FIM MENU NAVEGAÇÃO*/
+}
+
+@media(max-width: 827px){
+    /*INICIO MENU NAVEGAÇÃO*/
+    .hideMobile{
+        display:none;
+    }
+    /*FIM MENU NAVEGAÇÃO*/
+}
+
+    </style>
 </head>
 <body>
     
