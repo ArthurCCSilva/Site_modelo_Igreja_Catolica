@@ -49,6 +49,7 @@ div.barra{
 
 /*-----INICIO CABECALHO-----*/
 header{
+    min-width: 483px;
     min-height: 100vh;/*ocupa a altura de 100% */
     background-image: url("../img/index-img/paraiso.backgrond.jpg");
     background-size: cover;/*ocupa 100% do espaço*/
@@ -148,6 +149,7 @@ header p{
 /*-----INICIO HEADER-----*/
 
 main{
+    min-width: 483px;
     width: 100%;
 }
 
@@ -197,6 +199,9 @@ a.p-link{
 /*-----FIM HEADER-----*/
 
 /*-----INICIO RODAPE-----*/
+footer{
+    min-width: 483px;
+}
 /*-----FIM RODAPE-----*/
 
 @media(min-width: 827px){
