@@ -49,7 +49,7 @@ div.barra{
 
 /*-----INICIO CABECALHO-----*/
 header{
-    min-width: 483px;
+    min-width: 383px;
     min-height: 100vh;/*ocupa a altura de 100% */
     background-image: url("../img/index-img/paraiso.backgrond.jpg");
     background-size: cover;/*ocupa 100% do espaço*/
@@ -149,7 +149,7 @@ header p{
 /*-----INICIO HEADER-----*/
 
 main{
-    min-width: 483px;
+    min-width: 383px;
     width: 100%;
 }
 
@@ -157,7 +157,7 @@ div.barra_box_informacao{
     margin: auto;
     padding: 20px 0px 20px 0px ;
     max-width: 1200px;
-    min-width: 483px;
+    min-width: 383px;
     background-image: linear-gradient(to left, #ffffff,#dbdada,#ffffff);
     display: flex;
     flex-wrap: wrap;/* Adiciona a propriedade para quebrar a linha */
@@ -200,7 +200,7 @@ a.p-link{
 
 /*-----INICIO RODAPE-----*/
 footer{
-    min-width: 483px;
+    min-width: 383px;
 }
 /*-----FIM RODAPE-----*/
 
