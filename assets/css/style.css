@@ -155,7 +155,7 @@ div.barra_box_informacao{
     margin: auto;
     padding: 20px 0px 20px 0px ;
     max-width: 1200px;
-    min-width: 500px;
+    min-width: 483px;
     background-image: linear-gradient(to left, #ffffff,#dbdada,#ffffff);
     display: flex;
     flex-wrap: wrap;/* Adiciona a propriedade para quebrar a linha */
