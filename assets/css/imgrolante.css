@@ -6,9 +6,9 @@
     background-position: center;/*para centralizar quando diminuir a tela*/
 }
 #imagem_rolante_principal {
-    background-image: url("../_img/_index-img/igerja-externa.jpg");
+    background-image: url("../img/index-img/igerja-externa.jpg");
 }
 
 #imagem_rolante-1{
-    background-image: url("../_img/_index-img/igreja-interna.jpg");
+    background-image: url("../img/index-img/igreja-interna.jpg");
 }

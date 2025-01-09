@@ -50,7 +50,7 @@ div.barra{
 /*-----INICIO CABECALHO-----*/
 header{
     min-height: 100vh;/*ocupa a altura de 100% */
-    background-image: url("../_img/_index-img/paraiso.backgrond.jpg");
+    background-image: url("../img/index-img/paraiso.backgrond.jpg");
     background-size: cover;/*ocupa 100% do espaço*/
     background-repeat: no-repeat;
     background-position: center;/*para centralizar quando diminuir a tela*/
