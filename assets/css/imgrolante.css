@@ -1,12 +1,47 @@
 @charset "UTF-8";
+
+.paralax{
+    background-attachment: fixed;
+}
+
+.noticias_principais{
+    margin-top: 5%;
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    background-color: #00000071;
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-position: center;
+}
+
+.rede_social{
+    margin-top: 5%;
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    background-color: #00000071;
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-position: center;
+}
+
 #imagem_rolante_principal, #imagem_rolante-1{
     min-height: 100vh;/*ocupa a altura de 100% */
     background-size: cover;/*ocupa 100% do espaço*/
     background-repeat: no-repeat;
-    background-position: center;/*para centralizar quando diminuir a tela*/
+    display: flex;
+    flex-wrap: wrap;/* Adiciona a propriedade para quebrar a linha */
+    justify-content: space-between; /* Cria um espaço entre os itens de forma igualitária*/
+    padding: 10%;
 }
 #imagem_rolante_principal {
     background-image: url("../img/index-img/igerja-externa.jpg");
+
 }
 
 #imagem_rolante-1{
