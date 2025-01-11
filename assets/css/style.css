@@ -49,7 +49,7 @@ div.barra{
 
 /*-----INICIO CABECALHO-----*/
 header{
-    min-width: 375px;
+    min-width: 383px;
     min-height: 100vh;/*ocupa a altura de 100% */
     background-image: url("../img/index-img/paraiso.backgrond.jpg");
     background-size: cover;/*ocupa 100% do espaço*/
@@ -149,7 +149,7 @@ header p{
 /*-----INICIO HEADER-----*/
 
 main{
-    min-width: 375px;
+    min-width: 383px;
     width: 100%;
 }
 
