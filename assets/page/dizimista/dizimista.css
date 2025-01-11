@@ -54,8 +54,8 @@ img.txt-dizimo{
     padding:5px;
 }
 
-@media(max-width: 383px){
-    .noticia1 .notiacia2{
+@media(max-width: 450px){
+    img{
         max-width: 383px;
     }
 }
