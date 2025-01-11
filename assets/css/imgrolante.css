@@ -31,6 +31,7 @@
 }
 .pagina{
 
+    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;/* Adiciona a propriedade para quebrar a linha */
     justify-content: space-between; /* Cria um espaço entre os itens de forma igualitária*/
