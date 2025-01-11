@@ -29,17 +29,19 @@
     text-align: center;
     background-position: center;
 }
+.pagina{
 
-#imagem_rolante_principal, #imagem_rolante-1{
-    min-width: 80%;
-    min-height: 100vh;/*ocupa a altura de 100% */
-    background-size: cover;/*ocupa 100% do espaço*/
-    background-repeat: no-repeat;
-    background-position: center center;
     display: flex;
     flex-wrap: wrap;/* Adiciona a propriedade para quebrar a linha */
     justify-content: space-between; /* Cria um espaço entre os itens de forma igualitária*/
     padding: 10%;
+}
+#imagem_rolante_principal, #imagem_rolante-1{
+    min-height: 100vh;/*ocupa a altura de 100% */
+    background-size: cover;/*ocupa 100% do espaço*/
+    background-repeat: no-repeat;
+    background-position: center center;
+   
 }
 #imagem_rolante_principal {
     background-image: url("../img/index-img/igerja-externa.jpg");
